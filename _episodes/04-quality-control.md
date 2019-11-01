@@ -56,7 +56,7 @@ in each data column.
    column. Options include whole numbers, decimals, lists of items, dates, and
    other values.
 
-   ![Image of Data Validation window](../fig/data_validation_window.png)
+   ![Image of Data Validation window](../fig/04-Data_Validation.png)
 
 4. After selecting an item enter any additional details. For example if you've
    chosen a list of values then enter a comma-delimited list of allowable
@@ -69,25 +69,25 @@ allow whole numbers between 1 and 100.
 1. Select the `num_registered` column
 2. On the `Data` tab select `Data Validation`
 3. In the `Allow` box select `Whole number`
-4. Set the minimum and maximum values to 1 and 100.
+4. Set the minimum and maximum values to 1 and 50.
 
-![Image of Data Validation window for validating plot values](../fig/plot_validation.png)
+![Image of Data Validation window for validating plot values](../fig/04-Data_Validation_Whole_number.png)
 
-Now let's try entering a new value in the plot column that isn't a valid
-plot. The spreadsheet stops us from entering the wrong value and asks us if we
+Now let's try entering a new value in the num_registered column that isn't a valid
+class size. The spreadsheet stops us from entering the wrong value and asks us if we
 would like to try again.
 
-![Image of error when trying to enter invalid data](../fig/invalid_value.png)
+![Image of error when trying to enter invalid data](../fig/04-Data_Validation_restrictions_apply.png)
 
 You can also customize the resulting message to be more informative by entering
 your own message in the `Input Message` tab
 
-![Image of Input Message tab](../fig/input_message.png)
+![Image of Input Message tab](../fig/04-Data_Validation_Valid_class_size.png)
 
 and allow invalid data to just result in a warning by modifying the `Style`
 option on the `Error Alert` tab.
 
-![Image of Error Alert tab](../fig/error_alert.png)
+![Image of Error Alert tab](../fig/04-Data_Validation_Error_Tab.png)
 
 Quality assurance can make data entry easier as well as more robust. For
 example, if you use a list of options to restrict data entry, the spreadsheet
@@ -95,7 +95,7 @@ will provide you with a drop-downlist of the available items. So, instead of
 trying to remember the initials of all your trainers, you can just select the
 right option from the list.
 
-![Image of drop-down menu](../fig/drop_down_list.png)
+![Image of drop-down menu](../fig/04-Data_Validation_List.png)
 
 # Quality Control
 

@@ -56,6 +56,51 @@ Let's try with a simple challenge.
 > (Make sure the new column is formatted as a number and not as a date.)
 > {: .solution}
 {: .challenge}
+> ## Exercise 
+>
+> Challenge: pulling month, day and year out of dates 
+>
+> - In the `dates` tab of your spreadsheet you have the data from 2014 plot 3. 
+> There's a `Date collected` column.
+> - Let’s extract month, day and year from the dates to new columns. For this we 
+> can use the built in Excel functions
+>
+> `YEAR()`
+> `MONTH()`    
+> `DAY()`  
+> 
+> (Make sure the new column is formatted as a number and not as a date.)
+>
+> You can see that even though you wanted the year to be 2014, your spreadsheet program
+> automatically interpreted it as 2015, the year you entered the data.
+>
+> > ## Solution
+> > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
+> > {: .output}
+> {: .solution}
+{: .challenge}
+
+> ## Exercise
+> 
+> Challenge: pulling hour, minute and second out of the current time 
+>
+> Current time and date are best retrieved using the functions `NOW()`, which
+> returns the current date and time, and `TODAY()`, which returns the current
+> date. The results will be formatted according to your computer's settings.
+> 
+> 1) Extract the year, month and day from the current date and time string
+> returned by the `NOW()` function.  
+> 2) Calculate the current time using `NOW()-TODAY()`.   
+> 3) Extract the hour, minute and second from the current time using
+> functions `HOUR()`, `MINUTE()` and `SECOND()`.  
+> 4) Press `F9` to force the spreadsheet to recalculate the `NOW()` function,
+> and check that it has been updated.  
+> > ## Solution
+> > 1) To get the year, type `=YEAR(NOW())` into any cell in your spreadsheet. To get the month, type `=MONTH(NOW())`. To get the day, type `=DAY(NOW())`.  
+> > 2) Typing `=NOW()-TODAY()` will result in a decimal value that is not easily human parsable to a clock-based time. You will need to use the strategies in the third part of this challenge to convert this decimal value to readable time.  
+> > 3) To extract the hour, type `=HOUR(NOW()-TODAY())` and similarly for minute and second.  
+> {: .solution}
+{: .challenge}
 
 > ## Discussion
 >

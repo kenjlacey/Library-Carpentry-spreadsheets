@@ -41,23 +41,6 @@ conserve the timestamps you are better off handling them using custom solutions.
 
 Let's try with a simple challenge.
 
-> ## Challenge: pulling month, day and year out of dates ##
-> 
-> - In the `Dates` tab of your Excel file you have some more training data from 2017. There's a `date` column.
-> - Let’s extract month and year from the dates to new columns. For this we can use the built in Excel functions
-> 
-> ```
-> > ## Solution
-> =MONTH(A3)
-> =DAY(A3)
-> =YEAR(A3)
-> ```
-> 
-> (Make sure the new column is formatted as a number and not as a date.)
-> {: .solution}
-{: .challenge}
-> ## Exercise 1
->
 > Challenge: pulling month, day and year out of dates 
 >
 > - In the `dates` tab of your spreadsheet you have the data from 2014 plot 3. 

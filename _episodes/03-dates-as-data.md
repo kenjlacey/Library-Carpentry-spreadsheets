@@ -42,9 +42,9 @@ conserve the timestamps you are better off handling them using custom solutions.
 Let's try with a simple challenge.
 
 
-> ## Exercise 1
+> ## Challenge 1: pulling month, day and year out of dates
 >
-> Challenge: pulling month, day and year out of dates 
+ 
 >
 > - In the `dates` tab of your Excel file you have some more training data from 2017. There’s a `Date` column.
 > - Let’s extract month, day and year from the dates to new columns. For this we can use the built in Excel functions
@@ -68,12 +68,10 @@ Let's try with a simple challenge.
 >
 > You can see that some entries have been added more recently,
 > and even though the person adding them intended 2015,
-> Excel has actually used the current year (2017).
 {: .discussion}
 
-> ## Exercise 2
+> ## Challenge 2: pulling hour, minute and second out of the current time
 > 
-> Challenge: pulling hour, minute and second out of the current time 
 >
 > Current time and date are best retrieved using the functions `NOW()`, which
 > returns the current date and time, and `TODAY()`, which returns the current

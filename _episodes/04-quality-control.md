@@ -95,7 +95,7 @@ will provide you with a drop-downlist of the available items. So, instead of
 trying to remember the initials of all your trainers, you can just select the
 right option from the list.
 
-![Image of drop-down menu](../fig/04-Data_Validation_List.png)
+![Image of drop-down menu](../fig/04-quality-control-list.png)
 
 # Quality Control
 

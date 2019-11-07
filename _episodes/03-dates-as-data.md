@@ -41,30 +41,8 @@ conserve the timestamps you are better off handling them using custom solutions.
 
 Let's try with a simple challenge.
 
-> Challenge: pulling month, day and year out of dates 
->
-> - In the `dates` tab of your spreadsheet you have the data from 2014 plot 3. 
-> There's a `Date collected` column.
-> - Let’s extract month, day and year from the dates to new columns. For this we 
-> can use the built in Excel functions
->
-> `YEAR()`
-> `MONTH()`    
-> `DAY()`  
-> 
-> (Make sure the new column is formatted as a number and not as a date.)
->
-> You can see that even though you wanted the year to be 2014, your spreadsheet program
-> automatically interpreted it as 2015, the year you entered the data.
->
-> > ## Solution
-> > Here is the solution
-> > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
-> > {: .output}
-> {: .solution}
-{: .challenge}
 
-> ## Exercise 
+> ## Exercise 1
 >
 > Challenge: pulling month, day and year out of dates 
 >
@@ -83,6 +61,9 @@ Let's try with a simple challenge.
 > automatically interpreted it as 2015, the year you entered the data.
 >
 > > ## Solution
+> > =YEAR(A2)
+> > =MONTH(A2)
+> > =DAY(A2)
 > > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
 > > {: .output}
 > {: .solution}

@@ -56,7 +56,7 @@ Let's try with a simple challenge.
 > (Make sure the new column is formatted as a number and not as a date.)
 > {: .solution}
 {: .challenge}
-> ## Exercise 
+> ## Exercise 1
 >
 > Challenge: pulling month, day and year out of dates 
 >

@@ -64,7 +64,15 @@ Let's try with a simple challenge.
 > {: .solution}
 {: .challenge}
 
-> ## Exercise
+
+> ## Discussion
+>
+> You can see that some entries have been added more recently,
+> and even though the person adding them intended 2015,
+> Excel has actually used the current year (2017).
+{: .discussion}
+
+> ## Exercise 2
 > 
 > Challenge: pulling hour, minute and second out of the current time 
 >
@@ -87,27 +95,7 @@ Let's try with a simple challenge.
 {: .challenge}
 
 
-> ## Discussion
->
-> You can see that some entries have been added more recently,
-> and even though the person adding them intended 2015,
-> Excel has actually used the current year (2017).
-{: .discussion}
 
-> ## Exercise: pulling hour, minute and second out of the current time ##
-> 
-> Current time and date are best retrieved using the functions `NOW()`, which
-> returns the current date and time, and `TODAY()`, which returns the current
-> date. The results will be formatted according to your computer's settings.
-> 
-> - Try to extract the year, month and day from the current date and time string
-> returned by the `NOW()` function.
-> - Calculate the current time using `NOW()-TODAY()`.
-> - Try to extract the hour, minute and second from the current time using
-> functions `HOUR()`, `MINUTE()` and `SECOND()`.
-> - press `F9` to force the spreadsheet to recalculate the `NOW()` function,
-> and check that it has been updated.
-{: .challenge}
 
 ## Preferred date format
 

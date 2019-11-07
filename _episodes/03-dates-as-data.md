@@ -47,6 +47,7 @@ Let's try with a simple challenge.
 > - Let’s extract month and year from the dates to new columns. For this we can use the built in Excel functions
 > 
 > ```
+> > ## Solution
 > =MONTH(A3)
 > =DAY(A3)
 > =YEAR(A3)

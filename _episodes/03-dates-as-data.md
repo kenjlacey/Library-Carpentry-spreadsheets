@@ -58,6 +58,7 @@ Let's try with a simple challenge.
 > automatically interpreted it as 2015, the year you entered the data.
 >
 > > ## Solution
+> > Here is the solution
 > > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
 > > {: .output}
 > {: .solution}

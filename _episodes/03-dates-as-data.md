@@ -61,10 +61,10 @@ Let's try with a simple challenge.
 > automatically interpreted it as 2015, the year you entered the data.
 >
 > > ## Solution
-> > =YEAR(A2)
-> > =MONTH(A2)
-> > =DAY(A2)
-> > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
+> > 1) =YEAR(A2)
+> > 2) =MONTH(A2)
+> > 3) =DAY(A2)
+> > ![dates, exersize 1](../fig/03-solution_exercise_1_dates.png)
 > > {: .output}
 > {: .solution}
 {: .challenge}

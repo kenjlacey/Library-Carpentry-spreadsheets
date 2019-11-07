@@ -80,6 +80,30 @@ Let's try with a simple challenge.
 > {: .solution}
 {: .challenge}
 
+> ## Exercise 
+>
+> Challenge: pulling month, day and year out of dates 
+>
+> - In the `dates` tab of your spreadsheet you have the data from 2014 plot 3. 
+> There's a `Date collected` column.
+> - Let’s extract month, day and year from the dates to new columns. For this we 
+> can use the built in Excel functions
+>
+> `YEAR()`
+> `MONTH()`    
+> `DAY()`  
+> 
+> (Make sure the new column is formatted as a number and not as a date.)
+>
+> You can see that even though you wanted the year to be 2014, your spreadsheet program
+> automatically interpreted it as 2015, the year you entered the data.
+>
+> > ## Solution
+> > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
+> > {: .output}
+> {: .solution}
+{: .challenge}
+
 > ## Exercise
 > 
 > Challenge: pulling hour, minute and second out of the current time 
@@ -101,6 +125,7 @@ Let's try with a simple challenge.
 > > 3) To extract the hour, type `=HOUR(NOW()-TODAY())` and similarly for minute and second.  
 > {: .solution}
 {: .challenge}
+
 
 > ## Discussion
 >

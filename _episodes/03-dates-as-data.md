@@ -63,7 +63,7 @@ Let's try with a simple challenge.
 > > 2) =MONTH(A2)
 > > 3) =DAY(A2)
 > > ![dates, exersize 1](../fig/03-solution_exercise_1_dates.png)
-> > {: .output}
+
 > {: .solution}
 {: .challenge}
 

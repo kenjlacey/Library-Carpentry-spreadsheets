@@ -46,10 +46,8 @@ Let's try with a simple challenge.
 >
 > Challenge: pulling month, day and year out of dates 
 >
-> - In the `dates` tab of your spreadsheet you have the data from 2014 plot 3. 
-> There's a `Date collected` column.
-> - Let’s extract month, day and year from the dates to new columns. For this we 
-> can use the built in Excel functions
+> - In the `dates` tab of your Excel file you have some more training data from 2017. There’s a `Date` column.
+> - Let’s extract month, day and year from the dates to new columns. For this we can use the built in Excel functions
 >
 > `YEAR()`
 > `MONTH()`    
